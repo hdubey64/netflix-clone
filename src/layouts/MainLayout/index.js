@@ -1,7 +1,12 @@
 import "./style.css";
 
 const MainLayout = ({ children }) => {
-   return <div className="main-layout">{children}</div>;
+   return (
+      <>
+         <hr />
+         <div className="main-layout sectionBlack">{children}</div>
+      </>
+   );
 };
 
 export default MainLayout;
