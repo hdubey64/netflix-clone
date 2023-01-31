@@ -1,0 +1,16 @@
+.emailInput {
+   max-width: 670px;
+   margin: 0 auto;
+   border-radius: 0;
+}
+.emaiFeild {
+   border-radius: 0;
+}
+.getInput {
+   color: white;
+   background-color: #e50914;
+   font-size: 30px;
+   padding: 8px 20px;
+   border: 1px Solid #e50914;
+   border-radius: 0;
+}
