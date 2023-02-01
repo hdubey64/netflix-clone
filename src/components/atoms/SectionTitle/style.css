@@ -1,0 +1,19 @@
+.sectionTitle {
+   border: 1px Solid red;
+   padding: 20px 40px;
+   margin: auto;
+}
+.titleContent {
+   border: 1px Solid cyan;
+   text-align: start;
+}
+.sectionTitle h1 {
+   color: white;
+   font-size: 50px;
+   border: 1px Solid green;
+}
+.sectionTitle p {
+   color: white;
+   font-size: 26px;
+   border: 1px Solid red;
+}
