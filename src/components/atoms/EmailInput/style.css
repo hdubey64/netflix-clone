@@ -1,16 +1,36 @@
-.emailInput {
-   max-width: 670px;
-   margin: 0 auto;
+.inputContent {
    border-radius: 0;
+   padding: 0 230px;
 }
-.emaiFeild {
+.inputFeild {
    border-radius: 0;
+   border: none;
+   padding: 20px 10px;
 }
 .getInput {
    color: white;
    background-color: #e50914;
-   font-size: 30px;
-   padding: 8px 20px;
-   border: 1px Solid #e50914;
+   font-size: 28px;
+   padding: 8px 30px;
+   border: none;
    border-radius: 0;
+}
+@media (max-width: 1399.98px) {
+   .inputContent {
+      padding: 0 120px;
+   }
+}
+@media (max-width: 1199.98px) {
+   .inputContent {
+      padding: 0 60px;
+   }
+}
+@media (max-width: 991.98px) {
+   .inputContent {
+      padding: 0;
+   }
+   .getInput {
+      font-size: 24px;
+      padding: 4px 15px;
+   }
 }
