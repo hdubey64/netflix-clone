@@ -1,0 +1,7 @@
+.tvContent {
+   border: 1px Solid white;
+}
+.tvInnerContent {
+   display: flex;
+   flex-direction: row;
+}
