@@ -1,0 +1,14 @@
+.bannerContent img {
+   width: 530px;
+   height: 397px;
+   border: 1px Solid green;
+   position: relative;
+   z-index: 2;
+}
+.bannerContent video {
+   width: 385px;
+   height: 297px;
+
+   position: relative;
+   top: -355px;
+}
