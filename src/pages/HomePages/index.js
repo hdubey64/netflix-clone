@@ -1,5 +1,7 @@
+import { Container } from "@mui/material";
 import React from "react";
 import AskQuestionSection from "../../components/AskQuestionSection";
+import ChildrenSection from "../../components/ChildrenSection";
 import Footer from "../../components/Footer";
 import HeroSection from "../../components/HeroSection";
 import MobileSection from "../../components/MobileSection";
@@ -11,14 +13,39 @@ const HomePage = () => {
    return (
       <div>
          <HeroSection />
-         <MainLayout>
-            <HeroSection />
-            <TvSection />
-            <MobileSection />
-            <WatchSection />
-            <AskQuestionSection />
-            <Footer />
-         </MainLayout>
+         <Container className="borderVishal">
+            <MainLayout>
+               <TvSection />
+            </MainLayout>
+         </Container>
+         <hr />
+         <Container>
+            <MainLayout>
+               <MobileSection />
+            </MainLayout>
+         </Container>
+         <hr />
+         <Container>
+            <MainLayout>
+               <WatchSection />
+            </MainLayout>
+         </Container>
+         <hr />
+         <Container>
+            <MainLayout>
+               <ChildrenSection />
+            </MainLayout>
+         </Container>
+
+         <hr />
+         <Container>
+            <MainLayout>
+               <AskQuestionSection />
+            </MainLayout>
+         </Container>
+
+         <hr />
+         <Footer />
       </div>
    );
 };
