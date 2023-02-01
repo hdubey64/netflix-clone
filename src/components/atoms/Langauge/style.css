@@ -1,0 +1,12 @@
+.dropdown-toggle {
+   background: transparent;
+   border: 1px solid rgb(180, 180, 180);
+   border-radius: 1px;
+   font-size: 16px;
+}
+
+@media (max-width: 575.98px) {
+   .dropdown-toggle {
+      padding: 3px 10px;
+   }
+}
