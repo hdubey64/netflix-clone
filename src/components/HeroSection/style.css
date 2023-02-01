@@ -1,19 +1,19 @@
 .heroSection {
    background-image: linear-gradient(
-         rgba(0, 0, 0, 0.9),
-         transparent 60%,
-         rgba(0, 0, 0, 0.9)
+         rgba(0, 0, 0, 1),
+         transparent 50%,
+         rgba(0, 0, 0, 1)
       ),
       url("./assets/images/IN-en-20230123-popsignuptwoweeks-perspective_alpha_website_large.jpg");
    background-size: cover;
    height: 100%;
    object-fit: cover;
-   height: 88vh;
+   border-bottom: 8px Solid #222;
 }
 .heroContent {
-   padding: 60px;
+   padding: 110px 60px;
    color: white;
-   border: 1px Solid red;
+
    margin: 10px auto;
    margin-top: 50px;
 }
@@ -21,13 +21,43 @@
    font-size: 3.8rem;
    font-weight: bold;
    max-width: 640px;
-   margin: 0 auto;
+   margin: 10px auto;
 }
 .heroContent p {
-   font-size: 19px;
-   margin: 0 auto;
+   font-size: 20px;
+   margin: 5px auto;
+   line-height: 20px;
 }
 .heroInput {
-   border: 1px Solid green;
    margin: 20px auto;
+   /* padding: 0 230px; */
+}
+
+@media (max-width: 991.98px) {
+   .heroContent h1 {
+      font-size: 3.5rem;
+   }
+}
+@media (max-width: 767.98px) {
+   .heroContent h1 {
+      font-size: 2.5rem;
+   }
+}
+
+@media (max-width: 575.98px) {
+   .heroContent h1 {
+      font-size: 2rem;
+      max-width: 100%;
+   }
+}
+@media (max-width: 490px) {
+   .heroContent {
+      padding: 10px;
+   }
+   .heroContent h1 {
+      font-size: 2rem;
+   }
+   .heroContent h5 {
+      margin: 10px auto;
+   }
 }
