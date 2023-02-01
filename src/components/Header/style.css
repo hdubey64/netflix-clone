@@ -1,0 +1,22 @@
+.navContent {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.brandLogo {
+   padding: 0;
+}
+
+.brandLogo svg {
+   width: 210px;
+   height: 70px;
+}
+
+@media (max-width: 575.98px) {
+   .brandLogo svg {
+      margin-left: -25px;
+      width: 150px;
+      height: 40px;
+   }
+}
